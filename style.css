@@ -1,0 +1,109 @@
+@font-face {
+        font-family: Outfit;
+        src: url("fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+        font-family: YoungSerif;
+        src: url("fonts/young-serif/YoungSerif-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+.main-content{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.main-content p, li, h3{
+    font-family: Outfit;
+}
+.main-content h1, h2{
+    font-family: YoungSerif;
+    font-weight: 400;
+}
+.main-content h2{
+    color: hsl(14, 45%, 36%);
+}
+.main-content .profil img{
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+    padding: 0;
+}
+.main-content .profil h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profil p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.preparation{
+    padding: 25px 30px 10px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+.preparation ul{
+    padding: 20px;
+}
+.preparation ul li{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+    
+}
+
+
+
+.ingredients ul, .instructions ol{
+    padding: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%); 
+    color: hsl(30, 10%, 34%);
+}
+.instructions{
+    margin-top: 20px;
+}
+.ingredients ul li, .instructions ol li{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.nutrition, p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+table{
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    font-family: Outfit;
+    
+}
+table th, td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(31, 13%, 66%);
+}
+table th{
+    text-align: left;
+    padding-left: 30px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+table td{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
